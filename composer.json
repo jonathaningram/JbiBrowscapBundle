@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "GaretJax/phpbrowscap": "master"
+        "garetjax/phpbrowscap": "master"
     },
     "autoload": {
         "psr-0": { "Jbi\\BrowscapBundle": "" }

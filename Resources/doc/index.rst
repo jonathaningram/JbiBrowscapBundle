@@ -1,4 +1,12 @@
-Provides integration for Browscap for your Symfony2 Project.
+Provides integration of [`Browscap`](https://github.com/GaretJax/phpbrowscap) for your Symfony2 project.
+
+Features
+============
+
+The most useful (and currently the only) feature of this bundle is that you do
+not have to provide a cache directory for the `Browscap` class constructor. This
+bundle provides a cache directory and also attempts to create it if it does not 
+exist during application compilation.
 
 Installation
 ============
@@ -34,8 +42,8 @@ Register the phpbrowscap and Jbi namespaces
     // app/autoload.php
     $loader->registerNamespaces(array(
         // ...
-        'phpbrowscap'  => __DIR__.'/../vendor/phpbrowscap/src',
-        'Jbi'          => __DIR__.'/../vendor/bundles',
+        'phpbrowscap' => __DIR__.'/../vendor/phpbrowscap/src',
+        'Jbi'         => __DIR__.'/../vendor/bundles',
         // ...
     ));
 
@@ -70,12 +78,7 @@ in YAML::
 Use the JbiBrowscapBundle library
 ==================================
 
-All explanations about this library are available on the official blog_
-
-As bundle uses the new annotation implementation (as all Symfony2 code)
-the annotations are a bit different.
-
-Instead of::
+In your code::
 
     $browscap = $this->container->get('jbi_browscap.browscap');
 
