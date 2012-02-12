@@ -1,4 +1,4 @@
-Provides integration of Browscap for your Symfony2 project.
+Provides integration of Browscap_ for your Symfony2 project.
 
 Features
 ============
