@@ -1,6 +1,6 @@
 {
     "name": "jbi/browscap-bundle",
-    "description": "Use the Browscap library in a Symfony2 application",
+    "description": "Use the Browscap library in your Symfony2 project",
     "keywords": ["Browscap", "get_browser", "user agent"],
     "type": "symfony-bundle",
     "license": "Apache",
