@@ -1,4 +1,4 @@
-Provides integration of [`Browscap`](https://github.com/GaretJax/phpbrowscap) for your Symfony2 project.
+Provides integration of Browscap for your Symfony2 project.
 
 Features
 ============
@@ -83,3 +83,5 @@ In your code::
     $browscap = $this->container->get('jbi_browscap.browscap');
 
     $browserInfo = browscap->getBrowser($userAgentString);
+
+.. _Browscap: https://github.com/GaretJax/phpbrowscap
